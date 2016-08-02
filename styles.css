@@ -1,0 +1,272 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+  color: #111;
+  /*background: url('images/background.png') #edeff0; */
+  background: url('svgs/background.svg') #edeff0;
+  background-size: 52px;
+}
+
+#container {
+  max-width: 960px;
+  background: #fff;
+  margin: 0 auto;
+}
+
+p {
+  max-width: 350px;
+  margin: 35px auto 0;
+  line-height: 2em;
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+  color: #39add1;
+  font-weight: 700;
+  }
+  a:hover {
+    color: #111;
+  }
+
+header {
+  padding-top: 10px;
+}
+  header nav {
+    padding-bottom: 50px;
+    text-align: left;
+  }
+  header nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  header h1 {
+    line-height: 1em;
+  }
+
+main {
+  padding-top: 50px;
+}
+  main h2 {
+  font-size: 28px;
+}
+  main ul {
+    padding: 0;
+  }
+    main li {
+      display: inline-block;
+      color: #ba8058;
+      margin-right: 20px;
+    }
+      main li img {
+        margin-bottom: 15px;
+      }
+      main li span {
+        margin-left: -40px;
+      }
+      main li:last-child {
+        margin-right: 0;
+      }
+
+footer {
+  width: 100%;
+  margin-top: 100px;
+  padding-bottom: 30px;
+  color: #ba8058;
+}
+
+/* Extra Classes */
+
+/* Logo */
+
+.pawprint-logo {
+  width: 14.6%;
+  margin: 0 auto;
+}
+
+.pawprint-logo .st1 {
+  fill: #EAAA7F;
+}
+
+.mobile-logo-text {
+  display: none;
+}
+
+/* End Logo */
+
+/* Dogs */
+
+.corgi-dogs .corgi-red,
+.corgi-dogs .corgi-sable,
+.corgi-dogs .corgi-fawn,
+.corgi-dogs .corgi-blacktan {
+  width: 170px;
+}
+
+.corgi-dogs .corgi-red .st0 {
+  fill: #BA8058;
+}
+
+.corgi-dogs .corgi-red .st1 {
+  fill: #FBFEFF;
+}
+
+.corgi-dogs .corgi-red .st2 {
+  fill: #2D3339;
+}
+
+.corgi-dogs .corgi-red .st3 {
+  fill: #EAAA7F;
+}
+
+.corgi-dogs .corgi-fawn .st0 {
+  fill: #EAAA7F;
+}
+
+.corgi-dogs .corgi-fawn .st1 {
+  fill: #FBFEFF;
+}
+
+.corgi-dogs .corgi-fawn .st2 {
+  fill: #2D3339;
+}
+
+.corgi-dogs .corgi-fawn .st3 {
+  fill: #F4C6A6;
+}
+
+.corgi-dogs .corgi-sable .st0 {
+  fill: #844B24;
+}
+
+.corgi-dogs .corgi-sable .st1 {
+  fill: #FBFEFF;
+}
+
+.corgi-dogs .corgi-sable .st2 {
+  fill: #2D3339;
+}
+
+.corgi-dogs .corgi-sable .st3 {
+  fill: #BA8058;
+}
+
+.corgi-dogs .corgi-blacktan .st0 {
+  fill: #BA8058;
+}
+
+.corgi-dogs .corgi-blacktan st1 {
+  fill: #52595F;
+}
+
+.corgi-dogs .corgi-blacktan st2 {
+  fill: #FBFEFF;
+}
+
+.corgi-dogs .corgi-blacktan st3 {
+  fill: #2D3339;
+}
+
+
+/* End Dogs */
+
+/* Menu */
+
+.nav ul > li {
+  width: initial;
+}
+
+.nav-heart,
+.nav-contact {
+  width: 15px;
+}
+
+.nav-location {
+  width: 14px;
+}
+
+.nav-heart,
+.nav-contact,
+.nav-location {
+  -webkit-transform-origin: 50% 50%;
+  -moz-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  -o-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+}
+
+a:hover .nav-heart .st0,
+a:hover .nav-location .st0,
+a:hover .nav-contact .st0 {
+  fill: #111;
+}
+
+.nav-heart,
+.nav-location,
+.nav-contact {
+  -webkit-transition: transform .4s ease-out;
+  -moz-transition: transform .4s ease-out;
+  -o-transition: transform .4s ease-out;
+  transition: transform .4s ease-out;
+}
+
+a:hover .nav-heart,
+a:hover .nav-contact {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+a:hover .nav-location {
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+
+/* End Menu */
+
+/* Media Queries */
+
+@media (max-width: 420px) {
+  .logo-text {
+    display: none;
+  }
+  .mobile-logo-text {
+    display: block;
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: #F2C9AE;
+  }
+}
+
+/* End Media Queries */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
